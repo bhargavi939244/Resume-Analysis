@@ -11,6 +11,8 @@ import ResetPasswordPage from './pages/ResetPasswordPage';
 import BlogsPage from './pages/BlogsPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ResumeServicesPage from './pages/ResumeServicesPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsConditionsPage from './pages/TermsConditionsPage';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
             <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/about" element={<AboutUsPage />} />
             <Route path="/services" element={<ResumeServicesPage />} />
+            <Route path="/privacy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms" element={<TermsConditionsPage />} />
           </Routes>
         </main>
       </div>

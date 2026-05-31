@@ -516,8 +516,8 @@ export default function LandingPage() {
             <h4 className="text-white font-bold text-[11px] uppercase tracking-wider mb-1">Company</h4>
             <Link to="/about" className="hover:text-white transition">About us</Link>
             <Link to="/blogs" className="hover:text-white transition">Career Blogs</Link>
-            <a href="#" className="hover:text-[#ff6900] transition">Privacy Policy</a>
-            <a href="#" className="hover:text-[#ff6900] transition">Terms of Service</a>
+            <Link to="/privacy" className="hover:text-white transition">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-white transition">Terms of Service</Link>
             
           </div>
 
