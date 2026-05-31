@@ -26,7 +26,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'register' }) {
       const google = (window as any).google;
       if (google) {
         google.accounts.id.initialize({
-          client_id: "your-google-client-id.apps.googleusercontent.com",
+          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID || "your-google-client-id.apps.googleusercontent.com",
           callback: handleGoogleCredentialResponse,
         });
         google.accounts.id.renderButton(
