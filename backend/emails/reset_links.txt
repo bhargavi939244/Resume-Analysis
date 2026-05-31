@@ -1,0 +1,1 @@
+[2026-05-19 12:28:26.897399] Reset link for google-tester@example.com: http://localhost:5173/reset-password?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtdGVzdGVyQGV4YW1wbGUuY29tIiwicHVycG9zZSI6InBhc3N3b3JkX3Jlc2V0IiwiZXhwIjoxNzc5MTk0NjA2fQ.N6Bz7DNtALJo_RIotknJzsJq9yowO6M9ZdOJgHswVYw

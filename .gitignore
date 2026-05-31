@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+ENV/
+
+# Production builds
+dist/
+dist-ssr/
+build/
+
+# Local databases & secrets
+*.db
+*.db-journal
+*.sqlite
+.env
+.env.local
+.env.*.local
+*.pyc
+__pycache__/
+
+# OS & Editor files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Uploads and temporary directories
+backend/uploads/*
+!backend/uploads/.gitkeep
